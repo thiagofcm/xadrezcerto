@@ -1,5 +1,5 @@
 ﻿using System;
-
+using project.tabuleiro;
 
 namespace project
 {
@@ -7,11 +7,9 @@ namespace project
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um valor inteiro");
-
-            int x= int.Parse(Console.ReadLine());
-            int y = 3*x;
-            Console.WriteLine("TRIPLO = " + y);
+            posicao p;
+            p = new posicao(1, 2);
+            Console.WriteLine("Posicao = " + p);
             Console.ReadLine();
         }
     }
