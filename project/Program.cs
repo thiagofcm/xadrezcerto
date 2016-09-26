@@ -1,15 +1,13 @@
 ﻿using System;
 using project.tabuleiro;
 
-namespace project
-{
+namespace project.tabuleiro
+    {
     class Program
     {
         static void Main(string[] args)
         {
-            posicao p;
-            p = new posicao(1, 2);
-            Console.WriteLine("Posicao = " + p);
+            tabuleiro tab = new tabuleiro(8, 8);
             Console.ReadLine();
         }
     }
